@@ -19,7 +19,7 @@
 
 	SELECT *
 	FROM `paganti`
-	WHERE `ospite_id` <> "NULL";
+	WHERE `ospite_id` IS NOT NULL;
 
 ----
 
